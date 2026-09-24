@@ -1,0 +1,26 @@
+package com.ordermymeal.auth.model;
+
+public enum Permission {
+
+    MENU_VIEW,
+    ORDER_CREATE,
+    ORDER_VIEW_OWN,
+    ORDER_CANCEL_OWN,
+
+    VENDOR_MENU_MANAGE,
+    VENDOR_ORDER_VIEW,
+    VENDOR_ORDER_UPDATE,
+    VENDOR_MANIFEST_VIEW,
+
+    MEMBER_MANAGE,
+    VENDOR_MANAGE,
+    MENU_MANAGE,
+    ORDER_VIEW,
+    REFUND_MANAGE,
+    REPORT_VIEW,
+
+    ORGANIZATION_MANAGE,
+    ADMIN_MANAGE,
+    SYSTEM_MANAGE,
+    AUDIT_VIEW
+}
